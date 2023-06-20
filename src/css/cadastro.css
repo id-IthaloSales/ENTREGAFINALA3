@@ -1,0 +1,151 @@
+.conteiner-cadastro form {
+
+    max-width: 250px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    /* Adicionar as propriedades para centralizar */
+
+    margin: 0 auto;
+
+}
+
+.conteiner-cadastro h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.conteiner-cadastro label {
+    display: block;
+    margin-bottom: 10px;
+    color: #0069d9;
+}
+
+.conteiner-cadastro input[type="text"],
+.conteiner-cadastro input[type="email"],
+.conteiner-cadastro input[type="password"],
+.conteiner-cadastro input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff0101;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.conteiner-cadastro button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.conteiner-cadastro button[type="submit"]:hover {
+    background-color: #0069d9;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 600px) {
+    .conteiner-cadastro form {
+        max-width: 100%;
+    }
+}
+
+.conteiner-addSerie {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+
+}
+
+.conteiner-addSerie>div {
+    margin-right: 20px;
+}
+
+.conteiner-addSerie form {
+
+    max-width: 400px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    /* Adicionar as propriedades para centralizar */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.conteiner-addSerie h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.conteiner-addSerie label {
+    display: block;
+    margin-bottom: 10px;
+    color: #0069d9;
+}
+
+.conteiner-addSerie input[type="text"],
+.conteiner-addSerie input[type="email"],
+.conteiner-addSerie input[type="password"],
+.conteiner-addSerie input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff0101;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.conteiner-addSerie button[type="submit"] {
+    background-color: #80b8f4;
+    color: #ff0000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.conteiner-addSerie button[type="submit"]:hover {
+    background-color: #0069d9;
+}
+
+.Container-capa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #preview-container {
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  #preview-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  
+.form-field {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-error {
+  display: block;
+  color: red;
+  font-size: 0.9em;
+  font-weight: 600;
+}
